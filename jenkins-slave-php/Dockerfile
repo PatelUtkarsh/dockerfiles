@@ -25,7 +25,8 @@ RUN printf "\n\n==== Install depedency ====\n" \
   build-essential \
   libmhash-dev \
   libmhash2 \
-  libxslt1-dev
+  libxslt1-dev \
+  rsync
 
 RUN printf "\n\n==== Install phpbrew ====\n" \
  && curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew \
